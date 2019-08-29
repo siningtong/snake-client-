@@ -24,6 +24,8 @@ function handleUserInput(key){
   if(key === 'd'){
     connection.write('Move: right')
   }
+  if(key === 'q') {
+    connection.write('Say: MTB')}
 }
 
 module.exports={
